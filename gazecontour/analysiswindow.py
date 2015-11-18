@@ -15,7 +15,7 @@ from scipy.optimize import curve_fit
 import gazecontour.realtime
 from gazecontour import basewindow
 from gazecontour.recorder import Recorder
-import bezier
+from vectorbrush import bezier
 
 
 logger = logging.getLogger(__name__)
